@@ -1,20 +1,17 @@
-import { useNavigate } from "react-router-dom";
 import useFixedNavbar from "../../hooks/useFixedNavbar";
 
 export default function Header() {
-  const navigate = useNavigate();
-
   useFixedNavbar();
 
   const renderLinks = () => {
     const links = [
-      { url: "/nation/indonesia/men/players", text: "Indonesia" },
-      { url: "/club/arsenal/men/players", text: "Arsenal" },
+      { url: "/nation/indonesia/men/players/", text: "Indonesia" },
+      { url: "/club/arsenal/men/players/", text: "Arsenal" },
     ];
 
     return links.map((link) => (
       <li key={link.url}>
-        <a href="#" onClick={() => navigate(`${link.url}`)}>
+        <a href={link.url} className="text-blue-500">
           {link.text}
         </a>
       </li>

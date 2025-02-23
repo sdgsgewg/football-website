@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import playerData from "../../data/playerData";
 import PlayerSection from "./PlayerSection";
 import { useNavigate, useParams } from "react-router-dom";
@@ -17,12 +17,18 @@ export default function Player() {
 
   const players = playerData[teamName]?.[selectedType] || [];
 
-  const [filteredPlayers, setfilteredPlayers] = useState(players);
+  const [filteredPlayers, setFilteredPlayers] = useState(players);
   const [selectedFilter, setSelectedFilter] = useState("all-players");
+
+  // ✅ Gunakan useEffect untuk update state ketika URL berubah
+  useEffect(() => {
+    const newPlayers = playerData[teamName]?.[selectedType] || [];
+    setFilteredPlayers(newPlayers);
+    setSelectedFilter("all-players"); // Reset filter setiap kali pindah tim
+  }, [teamName, selectedType]);
 
   const handlePlayerTypeChange = (e) => {
     const selectedType = e.target.value;
-    setfilteredPlayers(playerData[teamName]?.[selectedType]);
     navigate(`/${teamType}/${teamName}/${selectedType}/players`);
   };
 
@@ -30,10 +36,10 @@ export default function Player() {
     const callupFilter = e.target.value;
 
     if (callupFilter === "called-up-players") {
-      setfilteredPlayers(players.filter((player) => player.isCalledUp));
+      setFilteredPlayers(players.filter((player) => player.isCalledUp));
       setSelectedFilter("called-up-players");
     } else {
-      setfilteredPlayers(players);
+      setFilteredPlayers(players);
       setSelectedFilter("all-players");
     }
   };
