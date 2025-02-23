@@ -7,6 +7,8 @@ export default function Player() {
   const navigate = useNavigate();
   let { teamType, teamName, playerType } = useParams();
 
+  console.log(teamType, teamName, playerType);
+
   const availableTypes = playerData[teamName]
     ? Object.keys(playerData[teamName])
     : [];

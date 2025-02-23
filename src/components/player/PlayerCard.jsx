@@ -1,25 +1,46 @@
 import { useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 import flagImages from "../../data/flagImages";
 import clubImages from "../../data/clubImages";
 
 export default function PlayerCard({ teamType, teamName, player, playerType }) {
   const navigate = useNavigate();
 
-  const origin = teamType === "nation" ? player.club : player.nationalities;
+  const [origin, setOrigin] = useState(null);
+  const [playerOrigin, setPlayerOrigin] = useState(null);
+  const [flagUrl, setFlagUrl] = useState("/assets/img/flags/default.png");
+
+  // useEffect untuk memperbarui state saat player berubah
+  useEffect(() => {
+    if (!player) {
+      console.log("Tak bise njer");
+      return;
+    } // Jika player null, hentikan eksekusi
+
+    console.log(player.club);
+
+    const newOrigin =
+      teamType === "nation" ? player.club : player.nationalities;
+    setOrigin(newOrigin);
+
+    if (Array.isArray(newOrigin)) {
+      const newPlayerOrigin = newOrigin[0];
+      setPlayerOrigin(newPlayerOrigin);
+      setFlagUrl(
+        flagImages[newPlayerOrigin?.replaceAll(" ", "")] ||
+          "/assets/img/flags/default.png"
+      );
+    } else {
+      setPlayerOrigin(newOrigin);
+      setFlagUrl(
+        clubImages[newOrigin?.replaceAll(" ", "")?.replaceAll("'", "")] ||
+          "/assets/img/flags/default.png"
+      );
+    }
+  }, [teamType, teamName, player, playerType]); // useEffect akan berjalan jika `player` atau `teamType` berubah
 
   const { image, name, firstName, lastName, slug, positions, squadNumber } =
     player;
-
-  let playerOrigin = null;
-  let flagUrl = "/assets/img/flags/default.png";
-
-  if (Array.isArray(origin)) {
-    playerOrigin = origin[0];
-    flagUrl = flagImages[playerOrigin.replaceAll(" ", "")];
-  } else {
-    playerOrigin = origin;
-    flagUrl = clubImages[playerOrigin.replaceAll(" ", "").replaceAll("'", "")];
-  }
 
   return (
     <div

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import useFixedNavbar from "../../hooks/useFixedNavbar";
 
 export default function Header() {
@@ -11,9 +12,9 @@ export default function Header() {
 
     return links.map((link) => (
       <li key={link.url}>
-        <a href={link.url} className="text-blue-500">
+        <Link to={link.url} className="text-blue-500">
           {link.text}
-        </a>
+        </Link>
       </li>
     ));
   };
@@ -33,7 +34,7 @@ export default function Header() {
               className="w-full h-full object-cover"
             />
           </div>
-          <a href="" className="font-bold text-lg text-red-600 block ms-2">
+          <a href="/" className="font-bold text-lg text-red-600 block ms-2">
             Teams
           </a>
         </div>

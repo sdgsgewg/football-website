@@ -14,7 +14,7 @@ function App() {
         {/* Initial Route */}
         <Route
           path="/"
-          element={<Navigate to="/club/arsenal/men/players/" />}
+          element={<Navigate to="/club/arsenal/men/players/" replace />}
         />
 
         {/* Team */}
