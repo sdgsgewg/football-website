@@ -14,7 +14,7 @@ export default function Header() {
 
     return links.map((link) => (
       <li key={link.url}>
-        <a href="" onClick={() => navigate(`${link.url}`)}>
+        <a href="#" onClick={() => navigate(`${link.url}`)}>
           {link.text}
         </a>
       </li>
