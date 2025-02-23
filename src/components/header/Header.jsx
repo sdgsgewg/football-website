@@ -8,8 +8,8 @@ export default function Header() {
 
   const renderLinks = () => {
     const links = [
-      { url: "/nation/indonesia/men/players/", text: "Indonesia" },
-      { url: "/club/arsenal/men/players/", text: "Arsenal" },
+      { url: "/nation/indonesia/men/players", text: "Indonesia" },
+      { url: "/club/arsenal/men/players", text: "Arsenal" },
     ];
 
     return links.map((link) => (

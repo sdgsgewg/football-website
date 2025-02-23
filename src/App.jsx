@@ -12,14 +12,14 @@ function App() {
       <ScrollToTop />
       <Routes>
         {/* Initial Route */}
-        <Route path="/" element={<Navigate to="/club/arsenal/men/players/" />} />
+        <Route path="/" element={<Navigate to="/club/arsenal/men/players" />} />
 
         {/* Team */}
-        <Route path="/:teamType/:teamName/:playerType/players/" element={<Player />} />
+        <Route path="/:teamType/:teamName/:playerType/players" element={<Player />} />
 
         {/* Player Detail */}
         <Route
-          path="/:teamType/:teamName/:playerType/players/:slug/"
+          path="/:teamType/:teamName/:playerType/players/:slug"
           element={<PlayerDetail />}
         />
       </Routes>
