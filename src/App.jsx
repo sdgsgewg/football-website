@@ -1,4 +1,5 @@
 import { Routes, Route, Navigate } from "react-router-dom";
+import { PlayerProvider } from "./context/PlayerContext";
 import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Player from "./components/player/Player";
@@ -8,28 +9,30 @@ import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <>
-      <Header />
-      <ScrollToTop />
-      <Routes>
-        {/* Initial Route */}
-        <Route
-          path="/"
-          element={<Navigate to="/club/arsenal/men/players/" replace />}
-        />
+      <PlayerProvider>
+        <Header />
+        <ScrollToTop />
+        <Routes>
+          {/* Initial Route */}
+          <Route
+            path="/"
+            element={<Navigate to="/club/arsenal/men/players/" replace />}
+          />
 
-        {/* Team */}
-        <Route
-          path="/:teamType/:teamName/:playerType/players/"
-          element={<Player />}
-        />
+          {/* Team */}
+          <Route
+            path="/:teamType/:teamName/:playerType/players/"
+            element={<Player />}
+          />
 
-        {/* Player Detail */}
-        <Route
-          path="/:teamType/:teamName/:playerType/players/:slug/"
-          element={<PlayerDetail />}
-        />
-      </Routes>
-      <Footer />
+          {/* Player Detail */}
+          <Route
+            path="/:teamType/:teamName/:playerType/players/:slug/"
+            element={<PlayerDetail />}
+          />
+        </Routes>
+        <Footer />
+      </PlayerProvider>
     </>
   );
 }

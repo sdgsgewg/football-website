@@ -1,50 +1,33 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import playerData from "../../data/playerData";
 import PlayerSection from "./PlayerSection";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { PlayerContext } from "../../context/PlayerContext";
+import SearchBox from "./search/SearchBox";
+import FilterDropdown from "./filter/FilterDropdown";
 
 export default function Player() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   let { teamType, teamName, playerType } = useParams();
-
-  console.log(teamType, teamName, playerType);
 
   const availableTypes = playerData[teamName]
     ? Object.keys(playerData[teamName])
     : [];
-
   const selectedType = availableTypes.includes(playerType)
     ? playerType
     : availableTypes[0];
 
-  const players = playerData[teamName]?.[selectedType] || [];
-
+  const { players, setPlayers } = useContext(PlayerContext);
   const [filteredPlayers, setFilteredPlayers] = useState(players);
+
   const [selectedFilter, setSelectedFilter] = useState("all-players");
 
-  // ✅ Gunakan useEffect untuk update state ketika URL berubah
+  // useEffect: untuk update state ketika URL berubah
   useEffect(() => {
-    const newPlayers = playerData[teamName]?.[selectedType] || [];
-    setFilteredPlayers(newPlayers);
-    setSelectedFilter("all-players"); // Reset filter setiap kali pindah tim
-  }, [teamName, selectedType]);
-
-  const handlePlayerTypeChange = (e) => {
-    const selectedType = e.target.value;
-    navigate(`/${teamType}/${teamName}/${selectedType}/players`);
-  };
-
-  const handleCallupFilter = (e) => {
-    const callupFilter = e.target.value;
-
-    if (callupFilter === "called-up-players") {
-      setFilteredPlayers(players.filter((player) => player.isCalledUp));
-      setSelectedFilter("called-up-players");
-    } else {
-      setFilteredPlayers(players);
-      setSelectedFilter("all-players");
-    }
-  };
+    let newPlayers = playerData[teamName]?.[selectedType] || [];
+    setPlayers(newPlayers);
+    setFilteredPlayers(players);
+  }, [teamName, selectedType, players, setPlayers]);
 
   const groupedPlayers = [
     {
@@ -88,34 +71,34 @@ export default function Player() {
           </p>
         </div>
 
-        <div className="flex justify-center my-16 gap-4">
-          {/* Dropdown untuk memilih tipe pemain */}
-          <select
-            className="w-xs p-2 border border-gray-300 rounded-lg text-dark font-semibold uppercase"
-            value={selectedType}
-            onChange={handlePlayerTypeChange}
-          >
-            {availableTypes.map((type) => (
-              <option key={type} value={type}>
-                {type}
-              </option>
-            ))}
-          </select>
+        {/* Filter */}
+        <FilterDropdown
+          teamType={teamType}
+          teamName={teamName}
+          setFilteredPlayers={setFilteredPlayers}
+          players={players}
+          selectedFilter={selectedFilter}
+          setSelectedFilter={setSelectedFilter}
+          selectedType={selectedType}
+          availableTypes={availableTypes}
+        />
 
-          {/* Dropdown untuk filter callup */}
-          {teamType === "nation" && (
-            <select
-              className="w-xs p-2 border border-gray-300 rounded-lg text-dark font-semibold uppercase"
-              value={selectedFilter}
-              onChange={handleCallupFilter}
-            >
-              <option value="all-players">All Players</option>
-              <option value="called-up-players">Called Up Players</option>
-            </select>
-          )}
-        </div>
+        {/* Search Box */}
+        <SearchBox
+          selectedFilter={selectedFilter}
+          setFilteredPlayers={setFilteredPlayers}
+          players={players}
+        />
       </div>
 
+      {/* Hasil Entri Players */}
+      {/* Tidak Ditemukan */}
+      {filteredPlayers.length === 0 && (
+        <div className="text-center text-gray-500">
+          <p>Player Not Found</p>
+        </div>
+      )}
+      {/* Ditemukan */}
       {groupedPlayers.map(({ title, players }) => (
         <PlayerSection
           key={title}

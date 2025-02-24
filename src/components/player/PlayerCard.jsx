@@ -12,12 +12,7 @@ export default function PlayerCard({ teamType, teamName, player, playerType }) {
 
   // useEffect untuk memperbarui state saat player berubah
   useEffect(() => {
-    if (!player) {
-      console.log("Tak bise njer");
-      return;
-    } // Jika player null, hentikan eksekusi
-
-    console.log(player.club);
+    if (!player) return;
 
     const newOrigin =
       teamType === "nation" ? player.club : player.nationalities;
@@ -37,7 +32,7 @@ export default function PlayerCard({ teamType, teamName, player, playerType }) {
           "/assets/img/flags/default.png"
       );
     }
-  }, [teamType, teamName, player, playerType]); // useEffect akan berjalan jika `player` atau `teamType` berubah
+  }, [teamType, teamName, player, playerType]); // useEffect akan berjalan jika data berubah
 
   const { image, name, firstName, lastName, slug, positions, squadNumber } =
     player;

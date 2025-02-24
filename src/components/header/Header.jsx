@@ -12,7 +12,7 @@ export default function Header() {
 
     return links.map((link) => (
       <li key={link.url}>
-        <Link to={link.url} className="text-blue-500">
+        <Link to={link.url} className="text-black">
           {link.text}
         </Link>
       </li>
@@ -34,7 +34,7 @@ export default function Header() {
               className="w-full h-full object-cover"
             />
           </div>
-          <a href="/" className="font-bold text-lg text-red-600 block ms-2">
+          <a href="/" className="font-bold text-lg text-black block ms-2">
             Teams
           </a>
         </div>
