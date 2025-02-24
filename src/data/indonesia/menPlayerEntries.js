@@ -10,7 +10,8 @@ const menPlayerEntries = [
   // GOALKEEPERS
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/goalkeepers/maarten-paes.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369228/maarten-paes_f7oiiv.webp",
     name: "Maarten Paes",
     firstName: "Maarten",
     lastName: "Paes",
@@ -29,7 +30,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/goalkeepers/emil-audero.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369226/emil-audero_wfbe8e.webp",
     name: "Emil Audero",
     firstName: "Emil",
     lastName: "Audero",
@@ -48,7 +50,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/goalkeepers/nadeo-argawinata.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369229/nadeo-argawinata_zmo0ip.jpg",
     name: "Nadeo Argawinata",
     firstName: "Nadeo",
     lastName: "Argawinata",
@@ -67,7 +70,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/goalkeepers/ernando-ari.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369227/ernando-ari_qipscr.jpg",
     name: "Ernando Ari",
     firstName: "Ernando",
     lastName: "Ari",
@@ -90,7 +94,8 @@ const menPlayerEntries = [
   // Centre Back
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/jay-idzes.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369251/jay-idzes_juurph.webp",
     name: "Jay Idzes",
     firstName: "Jay",
     lastName: "Idzes",
@@ -109,7 +114,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/mees-hilgers.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369256/mees-hilgers_fso5ar.webp",
     name: "Mees Hilgers",
     firstName: "Mees",
     lastName: "Hilgers",
@@ -128,7 +134,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/elkan-baggott.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369250/elkan-baggott_yoxioj.jpg",
     name: "Elkan Baggott",
     firstName: "Elkan",
     lastName: "Baggott",
@@ -147,7 +154,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/justin-hubner.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369254/justin-hubner_mbnmk6.png",
     name: "Justin Hubner",
     firstName: "Justin",
     lastName: "Hubner",
@@ -166,7 +174,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/jordi-amat.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369252/jordi-amat_nx9rop.jpg",
     name: "Jordi Amat",
     firstName: "Jordi",
     lastName: "Amat",
@@ -185,7 +194,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/rizky-ridho.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369260/rizky-ridho_kgfxjy.webp",
     name: "Rizky Ridho",
     firstName: "Rizky",
     lastName: "Ridho",
@@ -206,7 +216,8 @@ const menPlayerEntries = [
   // Right Back
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/kevin-diks.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369255/kevin-diks_hnnvkn.jpg",
     name: "Kevin Diks",
     firstName: "Kevin",
     lastName: "Diks",
@@ -225,7 +236,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/eliano-reijnders.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369248/eliano-reijnders_clylpa.webp",
     name: "Eliano Reijnders",
     firstName: "Eliano",
     lastName: "Reijnders",
@@ -244,7 +256,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/sandy-walsh.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369261/sandy-walsh_fhrpli.webp",
     name: "Sandy Walsh",
     firstName: "Sandy",
     lastName: "Walsh",
@@ -263,7 +276,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/asnawi-mangkualam.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369246/asnawi-mangkualam_jgfwm6.jpg",
     name: "Asnawi Mangkualam",
     firstName: "Asnawi",
     lastName: "Mangkualam",
@@ -284,7 +298,8 @@ const menPlayerEntries = [
   // Left Back
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/calvin-verdonk.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369247/calvin-verdonk_vxx8m0.jpg",
     name: "Calvin Verdonk",
     firstName: "Calvin",
     lastName: "Verdonk",
@@ -303,7 +318,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/dean-james.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369247/dean-james_g3z78r.jpg",
     name: "Dean James",
     firstName: "Dean",
     lastName: "James",
@@ -322,7 +338,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/shayne-pattynama.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369262/shayne-pattynama_paiys4.jpg",
     name: "Shayne Pattynama",
     firstName: "Shayne",
     lastName: "Pattynama",
@@ -341,7 +358,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/pratama-arhan.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369259/pratama-arhan_uhycsv.jpg",
     name: "Pratama Arhan",
     firstName: "Pratama",
     lastName: "Arhan",
@@ -360,7 +378,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/defenders/nathan-tjoe-a-on.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369257/nathan-tjoe-a-on_xkv6ah.webp",
     name: "Nathan Tjoe-A-On",
     firstName: "Nathan",
     lastName: "Tjoe-A-On",
@@ -383,7 +402,8 @@ const menPlayerEntries = [
   // Defensive Midfield
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/midfielders/thom-haye.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369288/thom-haye_gibxtm.webp",
     name: "Thom Haye",
     firstName: "Thom",
     lastName: "Haye",
@@ -402,7 +422,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/midfielders/joey-pelupessy.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369285/joey-pelupessy_mjnmyb.webp",
     name: "Joey Pelupessy",
     firstName: "Joey",
     lastName: "Pelupessy",
@@ -423,7 +444,8 @@ const menPlayerEntries = [
   // Central Midfield
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/midfielders/ivar-jenner.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369284/ivar-jenner_ry3whl.jpg",
     name: "Ivar Jenner",
     firstName: "Ivar",
     lastName: "Jenner",
@@ -442,7 +464,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/midfielders/ricky-kambuaya.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369288/ricky-kambuaya_vpojch.jpg",
     name: "Ricky Kambuaya",
     firstName: "Ricky",
     lastName: "Kambuaya",
@@ -463,7 +486,8 @@ const menPlayerEntries = [
   // Attacking Midfield
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/midfielders/marselino-ferdinan.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369286/marselino-ferdinan_whp54x.jpg",
     name: "Marselino Ferdinan",
     firstName: "Marselino",
     lastName: "Ferdinan",
@@ -486,7 +510,8 @@ const menPlayerEntries = [
   // Right Winger
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/forwards/ole-romeny.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369331/ole-romeny_nbwb25.webp",
     name: "Ole Romeny",
     firstName: "Ole",
     lastName: "Romeny",
@@ -505,7 +530,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/forwards/egy-maulana-vikri.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369328/egy-maulana-vikri_f5bvsy.jpg",
     name: "Egy Maulana Vikri",
     firstName: "Egy",
     lastName: "Maulana Vikri",
@@ -524,7 +550,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/forwards/yakob-sayuri.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369338/yakob-sayuri_xxzbxp.jpg",
     name: "Yakob Sayuri",
     firstName: "Yakob",
     lastName: "Sayuri",
@@ -543,7 +570,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/forwards/malik-risaldi.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369329/malik-risaldi_qg9eyc.jpg",
     name: "Malik Risaldi",
     firstName: "Malik",
     lastName: "Risaldi",
@@ -564,7 +592,8 @@ const menPlayerEntries = [
   // Left Winger
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/forwards/ragnar-oratmangoen.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369334/ragnar-oratmangoen_lkf9u6.jpg",
     name: "Ragnar Oratmangoen",
     firstName: "Ragnar",
     lastName: "Oratmangoen",
@@ -583,7 +612,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/forwards/witan-sulaeman.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369336/witan-sulaeman_dryj3q.jpg",
     name: "Witan Sulaeman",
     firstName: "Witan",
     lastName: "Sulaeman",
@@ -604,7 +634,8 @@ const menPlayerEntries = [
   // Centre Forward
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/forwards/rafael-struick.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369332/rafael-struick_n8o5og.webp",
     name: "Rafael Struick",
     firstName: "Rafael",
     lastName: "Struick",
@@ -623,7 +654,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/forwards/ramadhan-sananta.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369335/ramadhan-sananta_awdt65.webp",
     name: "Ramadhan Sananta",
     firstName: "Ramadhan",
     lastName: "Sananta",
@@ -642,7 +674,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/indonesia/men/forwards/dimas-drajad.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369327/dimas-drajad_qpw7am.jpg",
     name: "Dimas Drajad",
     firstName: "Dimas",
     lastName: "Drajad",

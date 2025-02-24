@@ -10,7 +10,8 @@ const menPlayerEntries = [
   // GOALKEEPERS
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/goalkeepers/david-raya.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369431/david-raya_arudmv.avif",
     name: "David Raya",
     firstName: "David",
     lastName: "Raya",
@@ -27,7 +28,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/goalkeepers/norberto-neto.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369432/norberto-neto_lpg16e.avif",
     name: "Norberto Neto",
     firstName: "Norberto",
     lastName: "Neto",
@@ -46,7 +48,8 @@ const menPlayerEntries = [
   // DEFENDERS
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/defenders/william-saliba.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369463/william-saliba_qbhgaz.avif",
     name: "William Saliba",
     firstName: "William",
     lastName: "Saliba",
@@ -63,7 +66,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/defenders/gabriel-magalhaes.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369450/gabriel-magalhaes_zbmhnl.avif",
     name: "Gabriel Magalhaes",
     firstName: "Gabriel",
     lastName: "Magalhaes",
@@ -80,7 +84,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/defenders/jakub-kiwior.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369452/jakub-kiwior_zgcicd.avif",
     name: "Jakub Kiwior",
     firstName: "Jakub",
     lastName: "Kiwior",
@@ -97,7 +102,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/defenders/riccardo-calafiori.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369460/riccardo-calafiori_wgbvcu.avif",
     name: "Riccardo Calafiori",
     firstName: "Riccardo",
     lastName: "Calafiori",
@@ -114,7 +120,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/defenders/oleksandr-zinchenko.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369458/oleksandr-zinchenko_otursc.avif",
     name: "Oleksandr Zinchenko",
     firstName: "Oleksandr",
     lastName: "Zinchenko",
@@ -131,7 +138,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/defenders/kieran-tierney.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369455/kieran-tierney_qjiipm.avif",
     name: "Kieran Tierney",
     firstName: "Kieran",
     lastName: "Tierney",
@@ -148,7 +156,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/defenders/myles-lewis-skelly.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369457/myles-lewis-skelly_exdalr.avif",
     name: "Myles Lewis-Skelly",
     firstName: "Myles",
     lastName: "Lewis-Skelly",
@@ -165,7 +174,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/defenders/ben-white.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369448/ben-white_uiwg8j.avif",
     name: "Ben White",
     firstName: "Ben",
     lastName: "White",
@@ -182,7 +192,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/defenders/jurrien-timber.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369453/jurrien-timber_cpwkmt.avif",
     name: "Jurrien Timber",
     firstName: "Jurrien",
     lastName: "Timber",
@@ -199,7 +210,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/defenders/takehiro-tomiyasu.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369462/takehiro-tomiyasu_w8alpj.avif",
     name: "Takehiro Tomiyasu",
     firstName: "Takehiro",
     lastName: "Tomiyasu",
@@ -218,7 +230,8 @@ const menPlayerEntries = [
   // MIDFIELDERS
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/midfielders/thomas-partey.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369503/thomas-partey_rlglcg.avif",
     name: "Thomas Partey",
     firstName: "Thomas",
     lastName: "Partey",
@@ -235,7 +248,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/midfielders/jorginho.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369498/jorginho_shvetk.avif",
     name: "Jorginho",
     firstName: "Jorginho",
     lastName: "Jorginho",
@@ -252,7 +266,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/midfielders/declan-rice.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369496/declan-rice_npbmrq.avif",
     name: "Declan Rice",
     firstName: "Declan",
     lastName: "Rice",
@@ -269,7 +284,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/midfielders/mikel-merino.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369501/mikel-merino_df5dzp.avif",
     name: "Mikel Merino",
     firstName: "Mikel",
     lastName: "Merino",
@@ -286,7 +302,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/midfielders/martin-odegaard.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369500/martin-odegaard_w7uxly.avif",
     name: "Martin Odegaard",
     firstName: "Martin",
     lastName: "Odegaard",
@@ -303,7 +320,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/forwards/ethan-nwaneri.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369526/ethan-nwaneri_apsqoh.avif",
     name: "Ethan Nwaneri",
     firstName: "Ethan",
     lastName: "Nwaneri",
@@ -322,7 +340,8 @@ const menPlayerEntries = [
   // FORWARDS
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/forwards/gabriel-martinelli.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369530/gabriel-martinelli_rkxnsk.avif",
     name: "Gabriel Martinelli",
     firstName: "Gabriel",
     lastName: "Martinelli",
@@ -339,7 +358,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/forwards/leandro-trossard.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369530/gabriel-martinelli_rkxnsk.avif",
     name: "Leandro Trossard",
     firstName: "Leandro",
     lastName: "Trossard",
@@ -356,7 +376,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/forwards/bukayo-saka.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369525/bukayo-saka_dxkrgo.avif",
     name: "Bukayo Saka",
     firstName: "Bukayo",
     lastName: "Saka",
@@ -373,7 +394,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/forwards/raheem-sterling.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369536/raheem-sterling_stcyfs.avif",
     name: "Raheem Sterling",
     firstName: "Raheem",
     lastName: "Sterling",
@@ -390,7 +412,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/forwards/kai-havertz.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369532/kai-havertz_tyvy9x.avif",
     name: "Kai Havertz",
     firstName: "Kai",
     lastName: "Havertz",
@@ -407,7 +430,8 @@ const menPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/men/forwards/gabriel-jesus.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369528/gabriel-jesus_unfm7r.avif",
     name: "Gabriel Jesus",
     firstName: "Gabriel",
     lastName: "Jesus",

@@ -29,14 +29,14 @@ export default function Header() {
             style={{ width: "100%", height: "30px" }}
           >
             <img
-              src="/assets/img/teams.png"
-              alt=""
+              src="https://res.cloudinary.com/db9uk6mya/image/upload/v1740368950/teams_ugow9x.jpg"
+              alt="Teams"
               className="w-full h-full object-cover"
             />
           </div>
-          <a href="/" className="font-bold text-lg text-black block ms-2">
+          <Link to="/" className="font-bold text-lg text-black block ms-2">
             Teams
-          </a>
+          </Link>
         </div>
 
         {/* Navigation */}

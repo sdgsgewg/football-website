@@ -9,30 +9,53 @@ const clubImages = {
     "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369020/borneo_gfulcd.png",
   BrisbaneRoar:
     "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369020/brisbane-roar_bl7zoe.png",
-  Copenhagen: "/assets/img/clubs/copenhagen.png",
-  Dallas: "/assets/img/clubs/dallas.png",
-  DewaUnited: "/assets/img/clubs/dewa-united.png",
-  FCVDenderEH: "/assets/img/clubs/fcv-dender-eh.png",
-  GoAheadEagles: "/assets/img/clubs/go-ahead-eagles.png",
-  JohorDarulTazim: "/assets/img/clubs/johor-darul-ta'zim.png",
-  KASEupen: "/assets/img/clubs/kas-eupen.png",
-  LommelSK: "/assets/img/clubs/lommel-sk.png",
-  MalutUnited: "/assets/img/clubs/malut-united.png",
-  NECNijmegen: "/assets/img/clubs/nec-nijmegen.png",
-  OxfordUnited: "/assets/img/clubs/oxford-united.png",
-  Palermo: "/assets/img/clubs/palermo.png",
-  PECZwolle: "/assets/img/clubs/pec-zwolle.png",
-  Persebaya: "/assets/img/clubs/persebaya.png",
-  Persib: "/assets/img/clubs/persib.png",
-  Persija: "/assets/img/clubs/persija.png",
-  PersisSolo: "/assets/img/clubs/persis-solo.png",
-  Port: "/assets/img/clubs/port.png",
-  SwanseaCity: "/assets/img/clubs/swansea-city.png",
-  Twente: "/assets/img/clubs/twente.png",
-  Utrecht: "/assets/img/clubs/utrecht.png",
-  Venezia: "/assets/img/clubs/venezia.png",
-  WolverhamptonWanderersU21: "/assets/img/clubs/wolves.png",
-  YokohamaFMarinos: "/assets/img/clubs/yokohama-f-marinos.png",
+  Copenhagen:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369021/copenhagen_qwd9xj.png",
+  Dallas:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369021/dallas_wp714l.png",
+  DewaUnited:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369022/dewa-united_nvfwmm.png",
+  FCVDenderEH:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369023/fcv-dender-eh_zxjoem.png",
+  GoAheadEagles:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369024/go-ahead-eagles_xhagun.png",
+  JohorDarulTazim:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369024/johor-darul-ta_zim_zt2bvr.png",
+  KASEupen:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369025/kas-eupen_d2wivd.png",
+  LommelSK:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369026/lommel-sk_rc0pav.png",
+  MalutUnited:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369027/malut-united_c5fnqk.png",
+  NECNijmegen:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369027/nec-nijmegen_a2cmea.png",
+  OxfordUnited:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369028/oxford-united_qasykh.png",
+  Palermo:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369029/palermo_cyjurd.png",
+  PECZwolle:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369030/pec-zwolle_jgu9nh.png",
+  Persebaya:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369031/persebaya_vk9ky1.png",
+  Persib:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369032/persib_ee1guz.png",
+  Persija:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369032/persija_q2mlfn.png",
+  PersisSolo:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369033/persis-solo_lz5fk9.png",
+  Port: "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369033/port_yr9ekp.png",
+  SwanseaCity:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740383280/swansea-city_otgc4r.png",
+  Twente:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369035/twente_mpqsfc.png",
+  Utrecht:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369059/utrecht_jyjncl.png",
+  Venezia:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369146/venezia_ko3m1i.png",
+  WolverhamptonWanderersU21:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369149/wolves_ocd7gr.png",
+  YokohamaFMarinos:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369147/yokohama-f-marinos_bbbzt9.png",
 };
 
 export default clubImages;

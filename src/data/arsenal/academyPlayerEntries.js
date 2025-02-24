@@ -10,7 +10,8 @@ const academyPlayerEntries = [
   // GOALKEEPERS
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/goalkeepers/tommy-setford.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369901/tommy-setford_dsbqpa.avif",
     name: "Tommy Setford",
     firstName: "Tommy",
     lastName: "Setford",
@@ -27,7 +28,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/goalkeepers/lucas-nygaard.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369898/lucas-nygaard_eme7xm.avif",
     name: "Lucas Martin Nygaard",
     firstName: "Lucas",
     lastName: "Nygaard",
@@ -44,7 +46,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/goalkeepers/alexei-rojas.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369890/alexei-rojas_hagqqy.avif",
     name: "Alexei Rojas",
     firstName: "Alexei",
     lastName: "Rojas",
@@ -61,7 +64,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/goalkeepers/jack-porter.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369892/jack-porter_b4di9r.avif",
     name: "Jack Porter",
     firstName: "Jack",
     lastName: "Porter",
@@ -78,7 +82,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/goalkeepers/khari-ranson.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369895/khari-ranson_asvfoo.avif",
     name: "Khari Ranson",
     firstName: "Khari",
     lastName: "Ranson",
@@ -97,7 +102,8 @@ const academyPlayerEntries = [
   // DEFENDERS
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/defenders/zane-monlouis.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369957/zane-monlouis_yplftq.avif",
     name: "Zane Monlouis",
     firstName: "Zane",
     lastName: "Monlouis",
@@ -114,7 +120,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/defenders/josh-nichols.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369935/josh-nichols_httuig.avif",
     name: "Josh Nichols",
     firstName: "Josh",
     lastName: "Nichols",
@@ -131,7 +138,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/defenders/elian-quesada-thorn.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369933/elian-quesada-thorn_epwqgy.avif",
     name: "Elian Quesada-Thorn",
     firstName: "Elian",
     lastName: "Quesada-Thorn",
@@ -148,7 +156,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/defenders/brayden-clarke.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369927/brayden-clarke_safjaf.avif",
     name: "Brayden Clarke",
     firstName: "Brayden",
     lastName: "Clarke",
@@ -165,7 +174,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/defenders/cam'ron-ismail.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369930/cam_ron-ismail_y2gyjs.avif",
     name: "Cam'ron Ismail",
     firstName: "Cam'ron",
     lastName: "Ismail",
@@ -182,7 +192,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/defenders/max-kuczynski.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369942/max-kuczynski_hxhzjg.avif",
     name: "Max Kuczynski",
     firstName: "Max",
     lastName: "Kuczynski",
@@ -199,7 +210,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/defenders/william-sweet.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369954/william-sweet_ok6acd.avif",
     name: "William Sweet",
     firstName: "William",
     lastName: "Sweet",
@@ -216,7 +228,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/defenders/samuel-chapman.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369944/samuel-chapman_uec9tb.avif",
     name: "Samuel Chapman",
     firstName: "Samuel",
     lastName: "Chapman",
@@ -233,7 +246,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/defenders/theo-julienne.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369951/theo-julienne_xt4puf.avif",
     name: "Theo Julienne",
     firstName: "Theo",
     lastName: "Julienne",
@@ -250,7 +264,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/defenders/josh-ogunnaike.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369938/josh-ogunnaike_vbkcdr.avif",
     name: "Josh Ogunnaike",
     firstName: "Josh",
     lastName: "Ogunnaike",
@@ -267,7 +282,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/defenders/samuel-onyekachukwu.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369948/samuel-onyekachukwu_dv4qjf.avif",
     name: "Samuel Onyekachukwu",
     firstName: "Samuel",
     lastName: "Onyekachukwu",
@@ -286,7 +302,8 @@ const academyPlayerEntries = [
   // MIDFIELDERS
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/midfielders/harrison-dudziak.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740370008/harrison-dudziak_lasr7w.avif",
     name: "Harrison Dudziak",
     firstName: "Harrison",
     lastName: "Dudziak",
@@ -303,7 +320,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/midfielders/jimi-gower.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740370024/jimi-gower_r2o7k8.avif",
     name: "Jimi Gower",
     firstName: "Jimi",
     lastName: "Gower",
@@ -320,7 +338,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/midfielders/jack-henry-francis.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740370018/jack-henry-francis_xw9ama.avif",
     name: "Jack Henry-Francis",
     firstName: "Jack",
     lastName: "Henry-Francis",
@@ -338,7 +357,7 @@ const academyPlayerEntries = [
   {
     id: uuidv4(),
     image:
-      "/assets/img/arsenal/academy/midfielders/salah-eddine-oulad-m'hand.png",
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740370034/salah-eddine-oulad-m_hand_nxj2d0.avif",
     name: "Salah-Eddine Oulad M'Hand",
     firstName: "Salah-Eddine",
     lastName: "Oulad M'Hand",
@@ -355,7 +374,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/midfielders/ismail-oulad-m'hand.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740370014/ismail-oulad-m_hand_mnblwc.avif",
     name: "Ismail Oulad M'Hand",
     firstName: "Ismail",
     lastName: "Oulad M'Hand",
@@ -372,7 +392,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/midfielders/michal-rosiak.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740370031/michal-rosiak_fixmyv.avif",
     name: "Michal Rosiak",
     firstName: "Michal",
     lastName: "Rosiak",
@@ -389,7 +410,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/midfielders/bless-akolbire.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369999/bless-akolbire_tvnpvq.avif",
     name: "Bless Akolbire",
     firstName: "Bless",
     lastName: "Akolbire",
@@ -406,7 +428,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/midfielders/dan-casey.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740370005/dan-casey_m0am5b.avif",
     name: "Dan Casey",
     firstName: "Dan",
     lastName: "Casey",
@@ -423,7 +446,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/midfielders/louie-copley.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740370028/louie-copley_uoklcb.avif",
     name: "Louie Copley",
     firstName: "Louie",
     lastName: "Copley",
@@ -440,7 +464,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/midfielders/zacariah-shuaib.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740370037/zacariah-shuaib_q3y31s.avif",
     name: "Zacariah Shuaib",
     firstName: "Zacariah",
     lastName: "Shuaib",
@@ -457,7 +482,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/midfielders/ife-ibrahim.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740370011/ife-ibrahim_fdlbxl.avif",
     name: "Ife Ibrahim",
     firstName: "Ife",
     lastName: "Ibrahim",
@@ -474,7 +500,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/midfielders/alex-marciniak.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369996/alex-marciniak_nqwr9u.avif",
     name: "Alex Marciniak",
     firstName: "Alex",
     lastName: "Marciniak",
@@ -491,7 +518,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/midfielders/ceadach-o'neill.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740370002/ceadach-o_neill_zckauq.avif",
     name: "Ceadach O'Neill",
     firstName: "Ceadach",
     lastName: "O'Neill",
@@ -510,7 +538,8 @@ const academyPlayerEntries = [
   // FORWARDS
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/forwards/nathan-butler-oyedeji.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740382374/nathan-butler-oyedeji_fdpm30.avif",
     name: "Nathan Butler-Oyedeji",
     firstName: "Nathan",
     lastName: "Butler-Oyedeji",
@@ -527,7 +556,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/forwards/khayon-edwards.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740382365/khayon-edwards_yqkzkn.avif",
     name: "Khayon Edwards",
     firstName: "Khayon",
     lastName: "Edwards",
@@ -544,7 +574,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/forwards/sebastian-ferdinand.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740382438/sebastian-ferdinand_xjaknd.avif",
     name: "Sebastian Ferdinand",
     firstName: "Sebastian",
     lastName: "Sebastian Ferdinand",
@@ -561,7 +592,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/forwards/romari-forde.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740385673/romari-forde_edbbfr.avif",
     name: "Romari Forde",
     firstName: "Romari",
     lastName: "Forde",
@@ -578,7 +610,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/forwards/ismeal-kabia.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740385672/ismeal-kabia_av9v4f.avif",
     name: "Ismeal Kabia",
     firstName: "Ismeal",
     lastName: "Kabia",
@@ -595,7 +628,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/forwards/osman-kamara.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740382442/osman-kamara_kyn1vo.avif",
     name: "Osman Kamara",
     firstName: "Osman",
     lastName: "Kamara",
@@ -612,7 +646,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/forwards/charles-sagoe-jr.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740382328/charles-sagoe-jr_odqtxp.avif",
     name: "Charles Sagoe Jr",
     firstName: "Charles",
     lastName: "Sagoe Jr",
@@ -629,7 +664,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/forwards/jakai-fisher.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740382351/jakai-fisher_du1sgb.avif",
     name: "Jakai Fisher",
     firstName: "Jakai",
     lastName: "Fisher",
@@ -646,7 +682,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/forwards/reece-clairmont.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740382431/reece-clairmont_eotmet.avif",
     name: "Reece Clairmont",
     firstName: "Reece",
     lastName: "Clairmont",
@@ -663,7 +700,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/forwards/daniel-oyetunde.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740382337/daniel-oyetunde_bv5vck.avif",
     name: "Daniel Oyetunde",
     firstName: "Daniel",
     lastName: "Oyetunde",
@@ -680,7 +718,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/forwards/andre-harriman-annous.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740382325/andre-harriman-annous_ia8xdt.avif",
     name: "Andre Harriman-Annous",
     firstName: "Andre",
     lastName: "Harriman-Annous",
@@ -697,7 +736,8 @@ const academyPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/academy/forwards/louis-zecevic-john.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740385673/louis-zecevic-john_a7fozj.avif",
     name: "Louis Zecevic-John",
     firstName: "Louis",
     lastName: "Zecevic-John",

@@ -10,7 +10,8 @@ const womenPlayerEntries = [
   // GOALKEEPERS
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/goalkeepers/manuela-zinsberger.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369648/manuela-zinsberger_rrho2g.avif",
     name: "Manuela Zinsberger",
     firstName: "Manuela",
     lastName: "Zinsberger",
@@ -27,7 +28,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/goalkeepers/daphne-van-domselaar.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369646/daphne-van-domselaar_gn69h7.avif",
     name: "Daphne van Domselaar",
     firstName: "Daphne",
     lastName: "van Domselaar",
@@ -44,7 +46,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/goalkeepers/naomi-williams.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369650/naomi-williams_e42ogs.avif",
     name: "Naomi Williams",
     firstName: "Naomi",
     lastName: "Williams",
@@ -63,7 +66,8 @@ const womenPlayerEntries = [
   // DEFENDERS
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/defenders/emily-fox.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369669/emily-fox_nqjngg.avif",
     name: "Emily Fox",
     firstName: "Emily",
     lastName: "Fox",
@@ -80,7 +84,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/defenders/lotte-wubben-moy.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369685/lotte-wubben-moy_ufjf7j.avif",
     name: "Lotte Wubben-Moy",
     firstName: "Lotte",
     lastName: "Wubben-Moy",
@@ -97,7 +102,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/defenders/laia-codina.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369679/laia-codina_wcevuy.avif",
     name: "Laia Codina",
     firstName: "Laia",
     lastName: "Codina",
@@ -114,7 +120,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/defenders/leah-williamson.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369682/leah-williamson_b3y5bk.avif",
     name: "Leah Williamson",
     firstName: "Leah",
     lastName: "Williamson",
@@ -131,7 +138,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/defenders/steph-catley.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369687/steph-catley_g4t6gg.avif",
     name: "Steph Catley",
     firstName: "Steph",
     lastName: "Catley",
@@ -148,7 +156,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/defenders/katie-mccabe.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369674/katie-mccabe_asaa3e.avif",
     name: "Katie McCabe",
     firstName: "Katie",
     lastName: "McCabe",
@@ -165,7 +174,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/defenders/jenna-nighswonger.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369672/jenna-nighswonger_cicsem.avif",
     name: "Jenna Nighswonger",
     firstName: "Jenna",
     lastName: "Nighswonger",
@@ -182,7 +192,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/defenders/amanda-ilestedt.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369667/amanda-ilestedt_bi7xpw.avif",
     name: "Amanda Ilestedt",
     firstName: "Amanda",
     lastName: "Ilestedt",
@@ -199,7 +210,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/defenders/katie-reid.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369677/katie-reid_tmh2ka.avif",
     name: "Katie Reid",
     firstName: "Katie",
     lastName: "Reid",
@@ -218,7 +230,8 @@ const womenPlayerEntries = [
   // MIDFIELDERS
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/midfielders/mariona-caldentey.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369749/mariona-caldentey_qefmao.avif",
     name: "Mariona Caldentey",
     firstName: "Mariona",
     lastName: "Caldentey",
@@ -235,7 +248,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/midfielders/kim-little.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369742/kim-little_jxpsid.avif",
     name: "Kim Little",
     firstName: "Kim",
     lastName: "Little",
@@ -252,7 +266,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/midfielders/frida-maanum.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369739/frida-maanum_klos6o.avif",
     name: "Frida Maanum",
     firstName: "Frida",
     lastName: "Maanum",
@@ -269,7 +284,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/midfielders/lia-walti.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369746/lia-walti_xfqdkg.avif",
     name: "Lia Walti",
     firstName: "Lia",
     lastName: "Walti",
@@ -286,7 +302,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/midfielders/victoria-pelova.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369752/victoria-pelova_nhmex8.avif",
     name: "Victoria Pelova",
     firstName: "Victoria",
     lastName: "Pelova",
@@ -303,7 +320,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/midfielders/kyra-cooney-cross.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369744/kyra-cooney-cross_sffqce.avif",
     name: "Kyra Cooney-Cross",
     firstName: "Kyra",
     lastName: "Cooney-Cross",
@@ -322,7 +340,8 @@ const womenPlayerEntries = [
   // FORWARDS
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/forwards/beth-mead.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369776/beth-mead_umk68s.avif",
     name: "Beth Mead",
     firstName: "Beth",
     lastName: "Mead",
@@ -339,7 +358,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/forwards/rosa-kafaji.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369784/rosa-kafaji_nu67b1.avif",
     name: "Rosa Kafaji",
     firstName: "Rosa",
     lastName: "Kafaji",
@@ -356,7 +376,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/forwards/lina-hurtig.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369782/lina-hurtig_stxwfc.avif",
     name: "Lina Hurtig",
     firstName: "Lina",
     lastName: "Hurtig",
@@ -373,7 +394,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/forwards/caitlin-foord.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369779/caitlin-foord_vypgst.avif",
     name: "Caitlin Foord",
     firstName: "Caitlin",
     lastName: "Foord",
@@ -390,7 +412,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/forwards/alessia-russo.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369774/alessia-russo_vfx9ks.avif",
     name: "Alessia Russo",
     firstName: "Alessia",
     lastName: "Russo",
@@ -407,7 +430,8 @@ const womenPlayerEntries = [
   },
   {
     id: uuidv4(),
-    image: "/assets/img/arsenal/women/forwards/stina-blackstenius.png",
+    image:
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1740369787/stina-blackstenius_oj1bbk.avif",
     name: "Stina Blackstenius",
     firstName: "Stina",
     lastName: "Blackstenius",
