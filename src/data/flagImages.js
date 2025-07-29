@@ -21,12 +21,16 @@ const flagImages = {
     "https://res.cloudinary.com/db9uk6mya/image/upload/v1740368972/egypt_aoparp.png",
   England:
     "https://res.cloudinary.com/db9uk6mya/image/upload/v1740368972/england_z6zmu2.png",
+  Estonia:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1753762414/estonia_izpcoa.png",
   France:
     "https://res.cloudinary.com/db9uk6mya/image/upload/v1740368973/france_byexzj.webp",
   Germany:
     "https://res.cloudinary.com/db9uk6mya/image/upload/v1740368973/germany_tcifxx.png",
   Ghana:
     "https://res.cloudinary.com/db9uk6mya/image/upload/v1740368974/ghana_mqkmen.avif",
+  Hungary:
+    "https://res.cloudinary.com/db9uk6mya/image/upload/v1753762344/hungary_vxoshb.webp",
   Indonesia:
     "https://res.cloudinary.com/db9uk6mya/image/upload/v1740368975/indonesia_onax6t.webp",
   Iraq: "https://res.cloudinary.com/db9uk6mya/image/upload/v1740368976/iraq_fcjvgy.png",
