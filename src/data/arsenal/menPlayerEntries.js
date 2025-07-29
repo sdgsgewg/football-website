@@ -97,7 +97,7 @@ const menPlayerEntries = [
     squadNumber: 3,
     height: 1.91,
     weight: 78,
-    nationalities: ["France", "Colombia"],
+    nationalities: ["Spain", "Colombia"],
     marketValue: 30.0,
   },
   {
