@@ -315,7 +315,7 @@ const menPlayerEntries = [
     squadNumber: 10,
     height: 1.78,
     weight: 73,
-    nationalities: ["London"],
+    nationalities: ["England"],
     marketValue: 55.0,
   },
   {
@@ -339,7 +339,7 @@ const menPlayerEntries = [
   {
     id: uuidv4(),
     image:
-      "https://res.cloudinary.com/db9uk6mya/image/upload/v1753761740/ethan-nwaneri_txjj3t.avif",
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1753761740/ethan_nwaneri_txjj3t.avif",
     name: "Ethan Nwaneri",
     firstName: "Ethan",
     lastName: "Nwaneri",
@@ -413,7 +413,7 @@ const menPlayerEntries = [
   {
     id: uuidv4(),
     image:
-      "https://res.cloudinary.com/db9uk6mya/image/upload/v1753761854/noni-madueke_a4oryg.avif",
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1753761854/noni_madueke_a4oryg.avif",
     name: "Noni Madueke",
     firstName: "Noni",
     lastName: "Madueke",
@@ -431,7 +431,7 @@ const menPlayerEntries = [
   {
     id: uuidv4(),
     image:
-      "https://res.cloudinary.com/db9uk6mya/image/upload/v1753761859/viktor-gyokeres_kmnr0h.avif",
+      "https://res.cloudinary.com/db9uk6mya/image/upload/v1753761859/viktor_gyokeres_kmnr0h.avif",
     name: "Viktor Einar Gyokeres",
     firstName: "Viktor",
     lastName: "Gyokeres",
